@@ -1,0 +1,82 @@
+main: mc.server.survival.files.Main
+name: Survival
+author: Eh1de
+version: 1.0-0
+description: Main plug-in's core set-up'er for survival servers.
+api-version: 1.13
+commands:
+  powrot:
+    usage: /powrot
+    aliases: [powrot, back]
+  spawn:
+    usage: /spawn
+    aliases: [spawn, lobby, hub]
+  dom:
+    usage: /dom
+    aliases: [dom, home, sethome]
+  wiadomosc:
+    usage: /wiadomosc
+    aliases: [wiadomosc, wiad, w, msg]
+  vanish:
+    usage: /vanish
+    aliases: [vanish, v]
+  swiat:
+    usage: /swiat
+    aliases: [swiat]
+  schowek:
+    usage: /schowek
+    aliases: [schowek, sch]
+  pomoc:
+    usage: /pomoc
+    aliases: [pomoc, help]
+  ping:
+    usage: /ping
+    aliases: [ping, ms]
+  wyspy:
+    usage: /wyspy
+    aliases: [wyspy, wyspa]
+  craftingi:
+    usage: /craftingi
+    aliases: [craftingi, receptury]
+  zaplac:
+    usage: /zaplac
+    aliases: [zaplac, pay, przelew]
+  paleta:
+    usage: /paleta
+    aliases: [paleta, kolory, hex]
+  tpa:
+    usage: /tpa
+    aliases: [tpa]
+  sklep:
+    usage: /sklep
+    aliases: [sklep, bazar, shop]
+  slub:
+    usage: /slub
+    aliases: [slub, marry]
+  gang:
+    usage: /gang
+    aliases: [gang, klan]
+  ip:
+    usage: /ip
+    aliases: [ip, address]
+  debugger:
+    usage: /debugger
+    aliases: [debugger, reloadcontents]
+  mute:
+    usage: /mute
+    aliases: [mute, wycisz, ucisz]
+  unmute:
+    usage: /unmute
+    aliases: [unmute, odcisz, wyjmijchuja]
+  kick:
+    usage: /kick
+    aliases: [kick, wyrzuc, wyjeb]
+  powiedz:
+    usage: /powiedz
+    aliases: [powiedz, falszywawiadomosc, fw]
+  postac:
+    usage: /postac
+    aliases: [postac, profil, statystyki]
+  questy:
+    usage: /questy
+    aliases: [questy, misje, zadania]
